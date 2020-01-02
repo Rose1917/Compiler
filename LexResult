@@ -1,0 +1,73 @@
+Key Word:  int
+ID:  gcd
+Punctuation:  (
+Key Word:  int
+ID:  u
+Punctuation:  ,
+Key Word:  int
+ID:  v
+Punctuation:  )
+Punctuation:  {
+Key Word:  if
+Punctuation:  (
+ID:  v
+Operator:  ==
+Number:  0
+Punctuation:  )
+Key Word:  return
+ID:  u
+Punctuation:  ;
+Key Word:  else
+Key Word:  return
+ID:  gcd
+Punctuation:  (
+ID:  v
+Punctuation:  ,
+ID:  u
+Operator:  -
+ID:  u
+Operator:  /
+ID:  v
+Operator:  *
+ID:  v
+Punctuation:  )
+Punctuation:  ;
+This is a commit.
+Punctuation:  }
+Key Word:  void
+ID:  main
+Punctuation:  (
+Key Word:  void
+Punctuation:  )
+Punctuation:  {
+Key Word:  int
+ID:  x
+Punctuation:  ;
+Key Word:  int
+ID:  y
+Punctuation:  ;
+ID:  x
+Operator:  =
+ID:  input
+Punctuation:  (
+Punctuation:  )
+Punctuation:  ;
+ID:  y
+Operator:  =
+ID:  input
+Punctuation:  (
+Punctuation:  )
+Punctuation:  ;
+ID:  output
+Punctuation:  (
+ID:  g
+ID:  c
+ID:  d
+Punctuation:  (
+ID:  x
+Punctuation:  ,
+ID:  y
+Punctuation:  )
+Punctuation:  )
+Punctuation:  ;
+Punctuation:  }
