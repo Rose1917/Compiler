@@ -10,8 +10,8 @@
 #include<stdio.h>
 #include"Parser.h"
 #include<string.h>
-#define SAVE_TOKEN yylval.tokenString=yytext
-#define TOKEN(t) ( yylval.tokenType= t)
+#define SAVE_TOKEN yylval.token.tokenString=yytext
+#define TOKEN(t) ( yylval.token.tokenType= t)
 %}
 comment "/*"([^\*]|(\*)*[^\*/])*(\*)*"*/"
 
