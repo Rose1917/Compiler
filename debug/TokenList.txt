@@ -1,5 +1,0 @@
-Key Word:  int
-ID:  a
-Operator:  =
-Number:  1
-Punctuation:  ;
