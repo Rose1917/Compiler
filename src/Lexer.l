@@ -12,6 +12,8 @@
 #include<string.h>
 #define SAVE_TOKEN yylval.token.tokenString=yytext
 #define TOKEN(t) ( yylval.token.tokenType= t)
+int row=1;
+int column=1;
 %}
 comment "/*"([^\*]|(\*)*[^\*/])*(\*)*"*/"
 

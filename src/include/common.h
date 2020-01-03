@@ -15,7 +15,7 @@
 #include "util.h"
 #include "symbol.h"
 #include "analyze.h"
-
+#include "token.h"
 using namespace std;
 
 // flex 读取文件的行数
